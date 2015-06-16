@@ -2,7 +2,7 @@
  * Created by bona on 2015/6/9.
  */
 var through = require("through");
-var each = require("foreach");
+var each = require("each");
 
 var orderBy = function (data, option) {
     var getValuefn = function (name) {
@@ -57,8 +57,6 @@ var orderBy = function (data, option) {
     }
 
     option = processOption(option);
-
-    //console.log(option);
 
     var compare = function (a, b) {
         var ret = 0;
