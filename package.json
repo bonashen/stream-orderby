@@ -1,0 +1,29 @@
+{
+  "name": "stream-orderby",
+  "version": "0.0.1",
+  "description": "order by for stream json objects on nodejs",
+  "main": "orderby.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonashen/stream-orderby.git"
+  },
+  "keywords": [
+    "orderby",
+    "stream",
+    "collection",
+    "toolkit"
+  ],
+  "author": "bona shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonashen/stream-orderby/issues"
+  },
+  "homepage": "https://github.com/bonashen/stream-orderby#readme",
+  "dependencies": {
+    "each": "^0.5.2",
+    "through": "^2.3.7"
+  }
+}
