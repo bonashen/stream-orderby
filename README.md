@@ -2,7 +2,7 @@
 orderby for stream json objects on nodejs
 
 ##example:
-
+###stream.pipe API
 ```javascript
 generator(5).pipe(orderBy([
   {
@@ -21,3 +21,4 @@ generator(5).pipe(orderBy([
 });
 
 ```
+if you read array object to order by,you can use `event-stream` **readArray**
